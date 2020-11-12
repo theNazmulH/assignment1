@@ -15,10 +15,10 @@ class CreateTweetsTable extends Migration
     {
         Schema::create('tweets', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('user_id')->nullable();
             $table->longText('body');
             $table->timestamps();
-            $table->foreign('user_id')->references('id')->on('users');
+//            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

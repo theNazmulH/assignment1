@@ -26,10 +26,15 @@ class TweetController extends Controller
     //  create the tweet and insert it in the "tweets" table
     public function processTweets(Request $request){
         $tweet = $request->input('tweet');
+        DB::connection()->table('tweets')->insert(
+            [
+                'body'=>$tweet,
+            ]
+        );
         //  ORM
-        $tweet = Tweet::create([
-            'body'=>$tweet,
-        ]);
+//        $tweet = Tweet::create([
+//            'body'=>$tweet,
+//        ]);
 
         return redirect()->route('tweet-page', $tweet);
     }

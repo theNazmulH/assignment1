@@ -151,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605147942231</updated>
-      <workItem from="1605147943635" duration="9689000" />
+      <workItem from="1605147943635" duration="10898000" />
     </task>
     <servers />
   </component>
@@ -167,9 +167,9 @@
       <screen x="0" y="23" width="1920" height="1004" />
     </state>
     <state x="939" y="505" width="323" height="235" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1920.1004@0.23.1920.1004" timestamp="1605158266415" />
-    <state x="856" y="351" width="670" height="676" key="search.everywhere.popup" timestamp="1605154259117">
+    <state x="856" y="351" width="670" height="676" key="search.everywhere.popup" timestamp="1605163082752">
       <screen x="0" y="23" width="1920" height="1004" />
     </state>
-    <state x="856" y="351" width="670" height="676" key="search.everywhere.popup/0.23.1920.1004@0.23.1920.1004" timestamp="1605154259117" />
+    <state x="856" y="351" width="670" height="676" key="search.everywhere.popup/0.23.1920.1004@0.23.1920.1004" timestamp="1605163082752" />
   </component>
 </project>
