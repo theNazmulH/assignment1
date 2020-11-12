@@ -7,11 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Tweet extends Model
 {
-    protected $fillable = ['*'];
+    protected $fillable = ['user_id', 'body'];
 //    use HasFactory;
-    protected $guarded = [
-        'remember-token'
-    ];
+//    protected $guarded = [
+//        'remember-token'
+//    ];
+
+
 
 
 }
