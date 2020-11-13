@@ -11,7 +11,11 @@ class TweetController extends Controller
     // show All Tweets
     public function showTweets(){
         $tweets = Tweet::all();
-        return view('tweets', $tweets);
+        foreach ( $tweets as $tweet){
+
+        }
+//        dd($tweets);
+        return view('tweets', ['tweets'=> $tweets]);
     }
 
 
